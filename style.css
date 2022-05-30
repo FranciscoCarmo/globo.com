@@ -1,0 +1,139 @@
+header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #ebedef;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 19;
+  height: 30px;
+  margin-bottom: 0px;
+  border-bottom: solid 1px #ebedef;
+}
+
+body {
+  font-family: "Encode Sans", sans-serif;
+  width: 1250px;
+  padding: 0 40px 40px 40px;
+}
+
+.conteudo {
+  width: 1250px;
+  display: flex;
+  padding-top: 40px;
+}
+
+.leftTab {
+  width: 676px;
+  border-right: solid 1px #ebedef;
+
+  height: 1000px;
+}
+
+.centerTab {
+  width: 287px;
+  display: flex;
+  border-right: solid 1px #ebedef;
+
+  height: 1000px;
+}
+
+.rightTab {
+  width: 287px;
+  display: flex;
+
+  height: 1000px;
+  background-color: blue;
+}
+
+.front {
+  margin-bottom: 30px;
+}
+
+.front h1 {
+  color: #c4160c;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.front h2 {
+  color: #303134;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.8;
+  border-right: solid 1px #ebedef;
+}
+.newsImagesLeft {
+  display: flex;
+}
+
+.newsTextLeft {
+  display: flex;
+}
+
+.newsTextLeft div {
+  width: 200px;
+  margin: 15px 25px 15px 0;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 13px;
+  color: #303134;
+}
+
+.redTitle {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+.secondary {
+  margin-bottom: 20px;
+  color: #303134;
+  line-height: 120%;
+  font-size: 13px;
+}
+
+.newsImagesLeft div img {
+  display: block;
+  height: 110px;
+  width: 193px;
+  border-radius: 12px;
+}
+
+.newsImagesLeft div {
+  margin: 15px 15px 15px 0;
+}
+
+.centerTab .redTitle {
+  color: #16ae54;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+.centerTab {
+  justify-content: center;
+}
+
+.centerTab div img {
+  display: block;
+  height: 128px;
+  width: 240px;
+  border-radius: 12px;
+}
